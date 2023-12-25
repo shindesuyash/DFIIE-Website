@@ -10,6 +10,7 @@ import augustVolume1 from "../components/images/augustVolume1.png";
 import september1 from "../components/images/newsletter-2.png";
 import october1 from "../components/images/newsletter-3.jpg";
 import Adv from '../components/images/Adv.jpg'
+import { FaArrowCircleRight } from "react-icons/fa";
 
 
 const NewsAndAnnouncement = () => {
@@ -127,16 +128,23 @@ const NewsAndAnnouncement = () => {
         </div>
         <div className="py-6 md:px-12 px-6 rounded-xl lg:w-10/12 w-11/12">
           <div className="text-center font-semibold text-3xl py-2.5">Announcement</div>
+
           <div className='flex flex-column items-center gap-6'>
+            <div>
+              <FaArrowCircleRight />
+            </div>
             <a href="https://drive.google.com/file/d/18VzuyCMBqrJL3_7tgsgoqhbBLG7BUtfb/view?usp=drive_link" target="_blank" rel="noreferrer">
               {/* <img src={Adv} alt="Description" style={{ width: '400px', height: '280px' }} /> */}
-              <><h2><b>Advertisement for the Post of
-                Incubation Manager and Accounts Officer</b></h2></>
+
+              <h2><b>Advertisement for the Post of
+                Incubation Manager and Accounts Officer</b></h2>
             </a>
 
           </div>
           <div className='flex flex-column items-center gap-6'>
-
+            <div>
+              <FaArrowCircleRight />
+            </div>
             <a href="https://drive.google.com/file/d/1mspNY1rMqHe6RqcSF5vI6PjWZo_4RZm1/view?usp=drive_link" target="_blank" rel="noreferrer">
               {/* <img src={Adv} alt="Description" style={{ width: '400px', height: '280px' }} /> */}
               <h2><b>List of Shortlisted Candidates for Interview for the Post of Incubation Manager and Accounts Officer at DBATU Forum of Innovation, Incubation & Enterprise</b></h2>

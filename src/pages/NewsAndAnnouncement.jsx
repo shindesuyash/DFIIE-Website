@@ -11,6 +11,7 @@ import september1 from "../components/images/newsletter-2.png";
 import october1 from "../components/images/newsletter-3.jpg";
 import Adv from '../components/images/Adv.jpg'
 
+
 const NewsAndAnnouncement = () => {
   const newsletter = [
     {
@@ -28,8 +29,9 @@ const NewsAndAnnouncement = () => {
       newslettername: "DFIIE Newsletter Volume-3 (October 2023)",
       path: "https://drive.google.com/file/d/1JRsBTCOVpIGyENdAdLqn9PN-7h8JLo5f/view?usp=sharing",
     },
-   
-    
+
+
+
   ];
 
   return (
@@ -50,7 +52,7 @@ const NewsAndAnnouncement = () => {
                 />
               </a>
               <p className="pt-1.5" style={{ textAlign: "justify" }}>
-              DFIIE, Lonere Organized <b>Faculty Orientation Programme</b> for the Faculty Members of University and Affiliated Institutions to create awareness about the Various employment and Startup Opportunities for their Students from 16th-18th October, 2023 at Dr. BATU Lonere
+                DFIIE, Lonere Organized <b>Faculty Orientation Programme</b> for the Faculty Members of University and Affiliated Institutions to create awareness about the Various employment and Startup Opportunities for their Students from 16th-18th October, 2023 at Dr. BATU Lonere
               </p>
             </div>
             <div className="border p-2 shadow rounded">
@@ -62,7 +64,7 @@ const NewsAndAnnouncement = () => {
                 />
               </a>
               <p className="pt-1.5" style={{ textAlign: "justify" }}>
-              DFIIE, Lonere Organized Workshop on <b>How to go for Startup and Entrepreneurship</b> on 10th October 2023, at Dr. Babasaheb Ambedkar Technological University, Lonere. More than 200 participants attended the Programme.
+                DFIIE, Lonere Organized Workshop on <b>How to go for Startup and Entrepreneurship</b> on 10th October 2023, at Dr. Babasaheb Ambedkar Technological University, Lonere. More than 200 participants attended the Programme.
               </p>
             </div>
             <div className="border p-2 shadow rounded">
@@ -103,9 +105,9 @@ const NewsAndAnnouncement = () => {
             Newsletter
           </h1>
           <div className="grid sm:grid-cols-3 md:grid-cols-5 gap-4">
-          {newsletter.map((item, index) => {
-            return (
-              
+            {newsletter.map((item, index) => {
+              return (
+
                 <div className="border p-2 shadow rounded">
                   <a href={item.path} target="_blank" rel="noreferrer">
                     <Image
@@ -115,24 +117,35 @@ const NewsAndAnnouncement = () => {
                       alt="August Volume 1"
                     />
                   </a>
-                  <a href={item.path} className="newsletter-text" style={{cursor:"pointer"}}>
+                  <a href={item.path} className="newsletter-text" style={{ cursor: "pointer" }}>
                     <p className="pt-1.5">{item.newslettername}</p>
                   </a>
-              </div>
-            );
-          })}
+                </div>
+              );
+            })}
           </div>
         </div>
         <div className="py-6 md:px-12 px-6 rounded-xl lg:w-10/12 w-11/12">
-        <div className="text-center font-semibold text-3xl py-2.5">Announcement</div>
+          <div className="text-center font-semibold text-3xl py-2.5">Announcement</div>
           <div className='flex flex-column items-center gap-6'>
-  <a href="https://drive.google.com/file/d/18VzuyCMBqrJL3_7tgsgoqhbBLG7BUtfb/view?usp=drive_link" target="_blank" rel="noreferrer">
-    <img src={Adv} alt="Description" style={{ width: '400px', height: '280px' }}/>
-    <center><h2><b>Advertisement for the Post of 
-      <br></br>Incubation Manager and Accounts Officer</b></h2></center>
-  </a>
+            <a href="https://drive.google.com/file/d/18VzuyCMBqrJL3_7tgsgoqhbBLG7BUtfb/view?usp=drive_link" target="_blank" rel="noreferrer">
+              {/* <img src={Adv} alt="Description" style={{ width: '400px', height: '280px' }} /> */}
+              <><h2><b>Advertisement for the Post of
+                Incubation Manager and Accounts Officer</b></h2></>
+            </a>
+
           </div>
+          <div className='flex flex-column items-center gap-6'>
+
+            <a href="https://drive.google.com/file/d/1mspNY1rMqHe6RqcSF5vI6PjWZo_4RZm1/view?usp=drive_link" target="_blank" rel="noreferrer">
+              {/* <img src={Adv} alt="Description" style={{ width: '400px', height: '280px' }} /> */}
+              <h2><b>List of Shortlisted Candidates for Interview for the Post of Incubation Manager and Accounts Officer at DBATU Forum of Innovation, Incubation & Enterprise</b></h2>
+            </a>
+          </div>
+
+
         </div>
+
       </div>
     </>
   );

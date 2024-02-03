@@ -5,6 +5,9 @@ import blank from "../images/blank.jpg"
 import Kiwalekar from "../images/navin.png"
 import roshan from "../images/roshan.jpeg"
 import asif from "../images/asif.jpeg"
+import asif2 from "../images/asif2.jpg"
+import sameerPunaskar from "../images/sameerPunaskar.jpg"
+import sheetalSharma from "../images/sheetalSharma.jpg"
 
 
 
@@ -16,13 +19,18 @@ const Team = () => {
       "designation": "Chief Executive Officer"
     },
     {
-      "name": "Roshan Bonde",
-      "image": roshan,
-      "designation": "Incubation Manager (I/c)"
+      "name": "Sameer Punaskar",
+      "image": sameerPunaskar,
+      "designation": "Incubation Manager"
+    },
+    {
+      "name": "Sheetal Sharma",
+      "image": sheetalSharma,
+      "designation": "Accounts Officer"
     },
     {
       "name": "Mohd. Asif M. Gazge",
-      "image": asif,
+      "image": asif2,
       "designation": "Executive Assistant"
 
     }

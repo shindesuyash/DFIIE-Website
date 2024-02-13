@@ -14,7 +14,7 @@ const HomePage = () => {
     },
     {
       name:"Employment Generation",
-      total:20
+      total:60
     },
     {
       name:"Mentor Network",
@@ -22,12 +22,12 @@ const HomePage = () => {
     },
     {
       name:"Ecosystem Partnership",
-      total:13
+      total:16
     },
     
     {
       name:"Events Conducted",
-      total:50
+      total:70
     }
   ]
   console.log(countUp)

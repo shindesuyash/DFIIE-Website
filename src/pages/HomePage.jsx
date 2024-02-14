@@ -9,7 +9,7 @@ const HomePage = () => {
   const [countUp,setCountUp] = useState(false);
   const data = [
     {
-      name:"Incubated StartUps",
+      name:"Incubitee Associated",
       total:20
     },
     {

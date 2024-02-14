@@ -21,12 +21,24 @@ import banner15 from '../components/images/homebanner15.jpg'
 import banner16 from '../components/images/homebanner16.jpg'
 import banner17 from '../components/images/homebanner17.jpg'
 import banner18 from '../components/images/homebanner18.jpg'
+import banner19 from '../components/images/homebanner19.jpg'
+import banner20 from '../components/images/homebanner20.jpg'
+import banner21 from '../components/images/homebanner21.jpg'
+import banner22 from '../components/images/homebanner22.jpg'
+import banner23 from '../components/images/homebanner23.jpg'
+import banner24 from '../components/images/homebanner24.jpg'
+import banner25 from '../components/images/homebanner25.jpg'
+import banner26 from '../components/images/homebanner26.jpg'
+import banner27 from '../components/images/homebanner27.jpg'
+import banner28 from '../components/images/homebanner28.jpg'
+import banner29 from '../components/images/homebanner29.jpg'
+import banner30 from '../components/images/homebanner30.jpg'
 
 
 const Gallery = () => {
   const [loading,setLoading] = useState(true);
   const images = [
-    banner1,banner2,banner3,banner4,banner5,banner6,banner7,banner8,banner9,banner10,banner11,banner12,banner13,banner14,banner15,banner16,banner17,banner18
+    banner1,banner2,banner3,banner4,banner5,banner6,banner7,banner8,banner9,banner10,banner11,banner12,banner13,banner14,banner15,banner16,banner17,banner18,banner19,banner20,banner21,banner22,banner23,banner24,banner25,banner26,banner27,banner28,banner29,banner30
   ]
 
   return (

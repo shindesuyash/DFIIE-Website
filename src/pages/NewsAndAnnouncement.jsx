@@ -10,6 +10,8 @@ import augustVolume1 from "../components/images/augustVolume1.png";
 import september1 from "../components/images/newsletter-2.png";
 import october1 from "../components/images/newsletter-3.jpg";
 import december1 from "../components/images/newsletter-4.jpg";
+import january1 from "../components/images/newsletter-5.jpg";
+import february1 from "../components/images/newsletter-6.jpg";
 import Adv from '../components/images/Adv.jpg'
 import { FaArrowCircleRight } from "react-icons/fa";
 
@@ -35,6 +37,16 @@ const NewsAndAnnouncement = () => {
       img: december1,
       newslettername: "DFIIE Newsletter Volume-4 (December 2023)",
       path: "https://drive.google.com/file/d/1jsndAwMz1_3-MGesGponRNGm9eFlZ71v/view?usp=sharing",
+    },
+    {
+      img: january1,
+      newslettername: "DFIIE Newsletter Volume-5 (January 2024)",
+      path: "https://drive.google.com/file/d/1qtjWGtdenKO-kxVrZpokPjT-iKv05ZjR/view?usp=sharing",
+    },
+    {
+      img: february1,
+      newslettername: "DFIIE Newsletter Volume-4 (February 2024)",
+      path: "https://drive.google.com/file/d/1LfswgRT5Lvz-F9pYKPreC_dc7UYyRePT/view?usp=sharing",
     },
 
 

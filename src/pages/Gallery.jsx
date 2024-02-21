@@ -4,7 +4,7 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import SkeletonImage from '../components/SkeletonImage';
 import { Helmet } from 'react-helmet';
 import banner1 from '../components/images/homeBanner1.jpg'
-import banner2 from '../components/images/homeBanner2.jpg'
+//import banner2 from '../components/images/homeBanner2.jpg'
 import banner3 from '../components/images/homeBanner3.jpg'
 import banner4 from '../components/images/homeBanner4.jpg'
 import banner5 from '../components/images/homeBanner5.jpg'
@@ -38,7 +38,7 @@ import banner30 from '../components/images/homebanner30.jpg'
 const Gallery = () => {
   const [loading,setLoading] = useState(true);
   const images = [
-    banner1,banner2,banner3,banner4,banner5,banner6,banner7,banner8,banner9,banner10,banner11,banner12,banner13,banner14,banner15,banner16,banner17,banner18,banner19,banner20,banner21,banner22,banner23,banner24,banner25,banner26,banner27,banner28,banner29,banner30
+    banner1,banner3,banner4,banner5,banner6,banner7,banner8,banner9,banner10,banner11,banner12,banner13,banner14,banner15,banner16,banner17,banner18,banner19,banner20,banner21,banner22,banner23,banner24,banner25,banner26,banner27,banner28,banner29,banner30
   ]
 
   return (

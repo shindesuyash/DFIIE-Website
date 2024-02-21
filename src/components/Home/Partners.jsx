@@ -18,10 +18,14 @@ import img9 from "../images/mv.jpg"
 import img10 from "../images/ena.jpg"
 import img11 from "../images/chamber.jpg"
 import img12 from "../images/aic.jpg"
+import img13 from "../images/company1.jpg"
+import img14 from "../images/company2.jpg"
+import img15 from "../images/company3.jpg"
+import img16 from "../images/company4.jpg"
 
 
 export default function Partner() {
-  const partners = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12]
+  const partners = [img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16]
   
   return (
     <>

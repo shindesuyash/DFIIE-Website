@@ -21,7 +21,7 @@ const Vcmessageforhome = () => {
             <Fade direction='right' triggerOnce={true} className="md:w-3/4">
               <div className="flex flex-col gap-4">
                 <h1 className="md:text-4xl text-2xl directormessage  font-semibold  lg:pb-6 text-[#192f59]">
-                  Message From Hon'ble Vice-Chancellor
+                  Message From Hon'ble Chairman
                 </h1>
                 {Vcmessageforhomee.map((data) => (
                   <p className="md:text-[17px]  text-justify text-[#19191d]">
@@ -29,7 +29,7 @@ const Vcmessageforhome = () => {
                   </p>
                 ))}
                 <p className="text-[18px] text-justify vctext text-blue-700" style={{ fontWeight: "700" }}>
-                  - Dr. Karbari. V. Kale (Chairman, DFIIE)
+                  - Prof. Dr. Karbari. V. Kale 
                 </p>
                 <div className="flex justify-items-start mt-3">
                   <Link to={'/about/vcMessage'} className="rounded  border px-2 py-1.5 text-blue-800 border-blue-800 hover:bg-blue-800 hover:text-white font-semibold transition-colors ease-in-out duration-100">Read More</Link>
@@ -60,7 +60,7 @@ const Vcmessageforhome = () => {
                   </p>
                 ))}
                 <p className="text-[18px] text-justify vctext text-blue-700" style={{ fontWeight: "700" }}>
-                - Prof. S. L. Nalbalwar (Director, DFIIE)
+                - Prof. S. L. Nalbalwar
                 </p>
                 <div className="flex justify-items-start mt-3">
                   <Link to={'/about/vcMessage'} className="rounded  border px-2 py-1.5 text-blue-800 border-blue-800 hover:bg-blue-800 hover:text-white font-semibold transition-colors ease-in-out duration-100">Read More</Link>

@@ -22,12 +22,12 @@ const HomePage = () => {
     },
     {
       name:"Ecosystem Partnership",
-      total:16
+      total:17
     },
     
     {
       name:"Events Conducted",
-      total:70
+      total:72
     }
   ]
   console.log(countUp)

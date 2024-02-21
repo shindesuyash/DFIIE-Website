@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import SkeletonImage from '../SkeletonImage'
 import kale from "../images/kale.png"
 import malkani from "../images/malkani.png"
-import jogi from '../images/Jogi.png'
+import jogi from '../images/kiwlekar.jpg'
 import singh from '../images/singh.png'
 import nalbalwar from '../images/Nalbalwar.png'
 import john from '../images/vivekmogal.jpg'
@@ -20,38 +20,39 @@ const Team = () => {
     {
       "name": "Dr. Milind Kamble",
       "image": kamble,
-      "designation": "Chairman- DICCI & Director- DFIIE"
+      "designation": "Director"
     },
     {
       "name": "Shri. Tarun Malkani",
       "image": malkani,
-      "designation": "Director- DFIIE"
+      "designation": "Director"
     },
     {
       "name": "Dr. Vivek Vadke",
       "image":vadake,
-      "designation": "ExTech Process Engineering Ltd. & Director- DFIIE"
+      "designation": "Director"
+    },
+    {
+      "name": "Rtn. Manpreet Singh",
+      "image": singh,
+      "designation": "Director"
     },
     {
       "name": "Dr. S. L. Nalbalwar",
       "image": nalbalwar,
-      "designation": "Director- DFIIE"
+      "designation": "Director"
     },
     {
-      "name": "Dr. B. F. Jogi",
+      "name": "Dr. A. W. Kiwelekar",
       "image":jogi,
-      "designation": "Invitee Member DFIIE Board"
+      "designation": "Invitee Member"
     },
     
-    {
-      "name": "Shri. Manpreet Singh",
-      "image": singh,
-      "designation": "President ICIB & Director- DFIIE"
-    },
+  
     {
       "name": "Shri. Vivek Mogal",
       "image": john,
-      "designation": "Observer- Invitee Member DFIIE Board"
+      "designation": "Observer Member- MSInS"
     } 
   ]
   const [loading,setLoading] = useState(true)

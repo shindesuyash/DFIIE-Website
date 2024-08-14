@@ -10,7 +10,7 @@ const HomePage = () => {
   const data = [
     {
       name:"Incubitee Associated",
-      total:20
+      total:44
     },
     {
       name:"Employment Generation",
@@ -22,12 +22,16 @@ const HomePage = () => {
     },
     {
       name:"Ecosystem Partnership",
-      total:17
+      total:19
     },
     
     {
       name:"Events Conducted",
-      total:72
+      total:94
+    },
+    {
+      name:"IP Generation ",
+      total:4
     }
   ]
   console.log(countUp)

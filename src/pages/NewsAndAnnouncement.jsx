@@ -12,6 +12,9 @@ import october1 from "../components/images/newsletter-3.jpg";
 import december1 from "../components/images/newsletter-4.jpg";
 import january1 from "../components/images/newsletter-5.jpg";
 import february1 from "../components/images/newsletter-6.jpg";
+import march1 from "../components/images/march1.jpg";
+import april1 from "../components/images/april1.jpg";
+import may1 from "../components/images/may1.jpg";
 import Adv from '../components/images/Adv.jpg'
 import { FaArrowCircleRight } from "react-icons/fa";
 
@@ -45,8 +48,23 @@ const NewsAndAnnouncement = () => {
     },
     {
       img: february1,
-      newslettername: "DFIIE Newsletter Volume-4 (February 2024)",
+      newslettername: "DFIIE Newsletter Volume-6 (February 2024)",
       path: "https://drive.google.com/file/d/1LfswgRT5Lvz-F9pYKPreC_dc7UYyRePT/view?usp=sharing",
+    },
+    {
+      img: march1,
+      newslettername: "DFIIE Newsletter Volume-7 (March 2024)",
+      path: "https://drive.google.com/file/d/1fADCZbMyfzLEwKbA8YPaulCQdjdwdlrv/view?usp=sharing",
+    },
+    {
+      img: april1,
+      newslettername: "DFIIE Newsletter Volume-8 (April 2024)",
+      path: "https://drive.google.com/file/d/139gdLe-Ie6nHz82y3ErnpSDmxru2OgE3/view?usp=sharing",
+    },
+    {
+      img: may1,
+      newslettername: "DFIIE Newsletter Volume-9 (May 2024)",
+      path: "https://drive.google.com/file/d/19IebuzvnjEDRV-7ghg1Mp5GaG91UCFwE/view?usp=sharing",
     },
 
 

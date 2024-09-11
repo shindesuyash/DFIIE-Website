@@ -1,4 +1,4 @@
-# DBATU IIEC Website Frontend
+# DBATU DFIIE Website Frontend
 
 This repository contains the frontend of the **Dr. Babasaheb Ambedkar Technological University Industry-Institute-Entrepreneurship Cell (DBATU IIEC)** website, developed using **React.js**.
 
